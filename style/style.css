@@ -88,7 +88,7 @@ body {
 }
 
 .img {
-    background-image: url("./img/baker.jpeg");
+    background-image: url("../img/baker.jpeg");
     background-size:contain;
     width: 400px;
     height: 400px;
@@ -96,7 +96,7 @@ body {
 }
 
 .bakery-img {
-    background-image: url("./img/bakery.jpeg");
+    background-image: url("../img/bakery.jpeg");
     background-size:contain;
     width: 400px;
     height: 400px;
@@ -152,45 +152,45 @@ body {
     background: rgb(239, 35, 60);
   } 
 #cookie {
-    background-image: url("./img/cookie.jpeg");
+    background-image: url("../img/cookie.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #bagel {
-    background-image: url("./img/bagel.jpeg");
+    background-image: url("../img/bagel.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 
 #cookie {
-    background-image: url("./img/cookie.jpeg");
+    background-image: url("../img/cookie.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #muffin {
-    background-image: url("./img/muffin.jpeg");
+    background-image: url("../img/muffin.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #donut {
-    background-image: url("./img/donuts.jpeg");
+    background-image: url("../img/donuts.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #bread {
-    background-image: url("./img/bread.jpeg");
+    background-image: url("../img/bread.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 
 #cake {
-    background-image: url("./img/cake.jpeg");
+    background-image: url("../img/cake.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
