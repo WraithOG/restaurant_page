@@ -88,7 +88,15 @@ body {
 }
 
 .img {
-    background-image: url("baker.jpeg");
+    background-image: url("/src/img/baker.jpeg");
+    background-size:contain;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.bakery-img {
+    background-image: url("/src/img/bakery.jpeg");
     background-size:contain;
     width: 400px;
     height: 400px;
@@ -144,46 +152,52 @@ body {
     background: rgb(239, 35, 60);
   } 
 #cookie {
-    background-image: url("./cookie.jpeg");
+    background-image: url("/src/img/cookie.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #bagel {
-    background-image: url("./bagel.jpeg");
+    background-image: url("/src/img/bagel.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 
 #cookie {
-    background-image: url("./cookie.jpeg");
+    background-image: url("/src/img/cookie.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #muffin {
-    background-image: url("./muffin.jpeg");
+    background-image: url("/src/img/muffin.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #donut {
-    background-image: url("./donuts.jpeg");
+    background-image: url("/src/img/donuts.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 #bread {
-    background-image: url("./bread.jpeg");
+    background-image: url("/src/img/bread.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
 }
 
 #cake {
-    background-image: url("./cake.jpeg");
+    background-image: url("/src/img/cake.jpeg");
     background-size:cover;
     height: 100%;
     width: 50%;
+}
+
+.menu-item {
+    font-family: "Merriweather";
+    font-size: 20px;
+    font-weight: 600;
 }

@@ -20,7 +20,7 @@ export default function loadPage() {
     button2.id = "menu";
     const button3 = document.createElement("button");
     button3.className = "btn btn-rect-to-round btn-rect-to-round--red";
-    button3.innerHTML = "About";
+    button3.innerHTML = "About Us";
     button3.id = "about";
     //appending children
     navbar.appendChild(button1);
