@@ -1,4 +1,4 @@
-function loadPage() {
+export default function loadPage() {
     //declaring content variable
     const content = document.getElementById("content");
     //Declaring header variables
@@ -54,5 +54,4 @@ function loadPage() {
     content.appendChild(footer);
 }
 
-loadPage();
 
