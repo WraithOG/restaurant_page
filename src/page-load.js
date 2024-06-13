@@ -12,13 +12,16 @@ export default function loadPage() {
     //buttons
     const button1 = document.createElement("button");
     button1.className = "btn btn-rect-to-round btn-rect-to-round--red";
+    button1.id = "home";
     button1.innerHTML = "Home";
     const button2 = document.createElement("button");
     button2.className = "btn btn-rect-to-round btn-rect-to-round--red";
     button2.innerHTML = "Menu";
+    button2.id = "menu";
     const button3 = document.createElement("button");
     button3.className = "btn btn-rect-to-round btn-rect-to-round--red";
     button3.innerHTML = "About";
+    button3.id = "about";
     //appending children
     navbar.appendChild(button1);
     navbar.appendChild(button2);
@@ -29,10 +32,11 @@ export default function loadPage() {
     //body
     //declaring body variables
     const body = document.createElement("div");
+    body.id = "body";
     body.className = "body";
     const body_text = document.createElement("div");
     body_text.className = "body-text";
-    body_text.innerHTML = "<span id='home'>Home</span><br>Welcome to The Bakery! We make the most delicious treats in the entire world! Please feel free to browse our catalog, and let us know if anything peaks your interest!"
+    body_text.innerHTML = "<span id='title'>Home</span><br>Welcome to The Bakery! We make the most delicious treats in the entire world! Please feel free to browse our catalog, and let us know if anything peaks your interest!"
     const body_img_container = document.createElement("div");
     body_img_container.className = "baker-img";
     const body_img = document.createElement("div");

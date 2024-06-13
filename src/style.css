@@ -69,7 +69,7 @@ body {
     margin: 10px;
 }
 
-#home {
+#title {
     border: 10px solid #F5F3F4;
     display: flex;
     justify-content: center;
@@ -143,3 +143,47 @@ body {
     border-color: rgb(239, 35, 60);
     background: rgb(239, 35, 60);
   } 
+#cookie {
+    background-image: url("./cookie.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+#bagel {
+    background-image: url("./bagel.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+
+#cookie {
+    background-image: url("./cookie.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+#muffin {
+    background-image: url("./muffin.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+#donut {
+    background-image: url("./donuts.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+#bread {
+    background-image: url("./bread.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
+
+#cake {
+    background-image: url("./cake.jpeg");
+    background-size:cover;
+    height: 100%;
+    width: 50%;
+}
