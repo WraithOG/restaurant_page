@@ -2,7 +2,6 @@ import loadPage from "./page-load.js";
 import loadMenu from "./menu.js";
 import loadHome from "./home.js";
 import loadAbout from "./about.js";
-import "../style/style.css";
 
 loadPage();
 
